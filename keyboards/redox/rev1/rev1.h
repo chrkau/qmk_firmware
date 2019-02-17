@@ -1,4 +1,5 @@
 #pragma once
+#define DISABLE_JTAG // The keyboard uses PF4 and PF7, which are used by JTAG.
 
 #include "../redox.h"
 
